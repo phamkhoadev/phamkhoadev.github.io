@@ -41,7 +41,7 @@ $(document).ready(function(){
 	});	
 	/*bounceInLeft*/
 	$('.js--wp-2').waypoint(function(direction){
-		$('.js--wp-2').addClass('animated bounceInUp');
+		$('.js--wp-2').addClass('animated fadeInLeft');
 	},{
 		offset:'50%'
 	
@@ -55,7 +55,21 @@ $(document).ready(function(){
 	});	
 
 	$('.js--wp-4').waypoint(function(direction){
-		$('.js--wp-4').addClass('animated fadeIn');
+		$('.js--wp-4').addClass('animated bounce');
+	},{
+		offset:'50%'
+	
+	});
+
+	$('.js--wp-5').waypoint(function(direction){
+		$('.js--wp-5').addClass('animated fadeInRight');
+	},{
+		offset:'50%'
+	
+	});
+
+	$('.js--wp-6').waypoint(function(direction){
+		$('.js--wp-6').addClass('animated tada');
 	},{
 		offset:'50%'
 	
