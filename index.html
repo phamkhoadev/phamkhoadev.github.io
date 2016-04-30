@@ -1,107 +1,442 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 		<meta http-equiv="content-language" itemprop="inLanguage" content="vi"/>
 		<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
 		<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+		<link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
 		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,300italic' rel='stylesheet' type='text/css'>
 		<title>Hello Vietnam</title>	
 	</head>
 	<body>
 		<header>
-			<nav>
+			<nav class="">
 				<div class="row">
-					<img src="resources/img/logo-white.png" alt="logo" class="logo">
+					<a href="#"><img src="resources/img/logo-white.png" alt="logo" class="logo" ></a>
+					<a href="#"><img src="resources/img/logo-black.png" alt="logo-black" class="logo-black"></a>
 					<ul class="main-nav">
-						<li><a href="#">Food delivery</a></li>
-						<li><a href="#">How it works</a></li>
-						<li><a href="#">Our cities</a></li>
-						<li><a href="#">Sign up</a></li>
+						<li><a href="#features">Food delivery</a></li>
+						<li><a href="#works">How it works</a></li>
+						<li><a href="#cites">Our cities</a></li>
+						<li><a href="#plans">Sign up</a></li>
 					</ul>
 				</div>				
 			</nav>
 
 			<div class="hero-text-box">
 				<h1>HELLO VIETNAM.</br>I'LL COME TO YOU</h1>
-				<a class="btn btn-full" href="#">I'm hungry</a>
-				<a class="btn btn-ghost" href="#">Show me more</a>
+				<a class="btn btn-full js--scroll-to-plan" href="#">I'm hungry</a>
+				<a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
 			</div>
 		</header>
-
-		<section class="section-features">
+		
+		<section class="section-features clearfix js--section-features" id="features">
 			<div class="row">
 				<h2>What Makes Us Different</h2>
 				<p class="long-copy">We're interested in your opinions. We're always asking our partner agencies all over the world about their likes, dislikes or needs.</p>
 
 			</div>
 
-			<div class="row">
+			<div class="row js--wp-1">
 				<div class="col span_1_of_4 box">
-					<i class="ion-ios-cart-outline"></i>
-					<h3>Exclusive user bonus</h3>
+					<i class="ion-ios-cart-outline icon-big"></i>
+					<h3>User bonus</h3>
 					<p>Book with HelloVietnam Tour and start saving your own bonus!</p>
 				</div>
 
 				<div class="col span_1_of_4 box">
-					<i class="ion-ios-lightbulb-outline"></i>
+					<i class="ion-ios-lightbulb-outline icon-big"></i>
 					<h3>Easy trip planning</h3>
 					<p>Lots of useful, well-informed tips and guidance, hassles taken out.</p>
 				</div>
 
 				<div class="col span_1_of_4 box">
-					<i class="ion-ios-infinite-outline"></i>
+					<i class="ion-ios-infinite-outline icon-big"></i>
 					<h3>Expert customizing</h3>
 					<p>17 years’ experience tailoring to individual needs, always flexible.</p>
 				</div>
 
 				<div class="col span_1_of_4 box">
-					<i class="ion-ios-loop"></i>
-					<h3>Guaranteed standards</h3>
+					<i class="ion-ios-loop icon-big"></i>
+					<h3>Best guaranteed</h3>
 					<p>Big brand western-level service, great reviews.</p>
 				</div>
 
 				
 			</div>
 		</section>
+		
+		<section class="section-places clearfix">
+			<ul class="places-showcase clearfix">
+				<li>
+					<figure class="places-photo">
+						<img src="resources/img/1.jpg">
+					</figure>
+				</li>
 
-	</body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-		<meta http-equiv="content-language" itemprop="inLanguage" content="vi"/>
-		<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
-		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,300italic' rel='stylesheet' type='text/css'>
-		<title>Hello Vietnam</title>	
-	</head>
-	<body>
-		<header>
-			<nav>
-				<div class="row">
-					<img src="resources/img/logo-white.png" alt="logo" class="logo">
-					<ul class="main-nav">
-						<li><a href="#">Food delivery</a></li>
-						<li><a href="#">How it works</a></li>
-						<li><a href="#">Our cities</a></li>
-						<li><a href="#">Sign up</a></li>
-					</ul>
-				</div>				
-			</nav>
+				<li>
+					<figure class="places-photo">
+						<img src="resources/img/2.jpg">
+					</figure>
+				</li>
 
-			<div class="hero-text-box">
-				<h1>HELLO VIETNAM.</br>I'LL COME TO YOU</h1>
-				<a class="btn btn-full" href="#">I'm hungry</a>
-				<a class="btn btn-ghost" href="#">Show me more</a>
+				<li>
+					<figure class="places-photo">
+						<img src="resources/img/3.jpg">
+					</figure>
+				</li>
+
+				<li>
+					<figure class="places-photo">
+						<img src="resources/img/4.jpg">
+					</figure>
+				</li>
+				</ul>
+				<ul class="places-showcase clearfix">
+				<li>
+					<figure class="places-photo">
+						<img src="resources/img/5.jpg">
+					</figure>
+				</li>
+
+				<li>
+					<figure class="places-photo">
+						<img src="resources/img/6.jpg">
+					</figure>
+				</li>
+
+				<li>
+					<figure class="places-photo">
+						<img src="resources/img/7.jpg">
+					</figure>
+				</li>
+				
+
+				<li>
+					<figure class="places-photo">
+						<img src="resources/img/8.jpg">
+					</figure>
+				</li>
+			</ul>
+		</section>
+
+		<section class="section-steps clearfix" id="works">
+			<div class="row">
+				<h2>Custom Vietnam Tours</h2>
 			</div>
-		</header>
+			<div class="row">
+				<div class="col span_1_of_2 steps-box">
+					<img src="resources/img/macbook.png" class="app-screen js--wp-2" >
+				</div>
 
+				<div class="col span_1_of_2 steps-box">
+					<div class="work-step">
+						<div>1</div>
+						<p>We match you with up to 3 top Vietnam travel specialists. They compete to plan your custom trip.</p>
+					</div>
+					<div class="work-step">
+						<div>2</div>
+						<p>We match you with up to 3 top Vietnam travel specialists. They compete to plan your custom trip.</p>
+					</div>
+					<div class="work-step">
+						<div>3</div>
+						<p>We match you with up to 3 top Vietnam travel specialists. They compete to plan your custom trip.</p>
+					</div>
+					<div class="store">
+						<a href="#" class="btn-app"><img src="resources/img/App-Store.png" id="app"></a>
+					<a href="#" class="btn-app"><img src="resources/img/Google-Play.png"></a>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+		<section class="section-cities clearfix" id="cites">
+			<div class="row">
+				<h2>
+					There's a variety of cites you can visit such as
+				</h2>
+			</div>
+			<div class="row js--wp-3">
+					<div class="col span_1_of_4 box">
+						<img src="resources/img/cantho.jpg">
+						<h3>Can Tho</h3>
+						<div class="cities-features">
+							<i class="ion-ios-person icon-small"></i>
+							3600+ happy tourists
+						</div>
+						<div class="cities-features">
+							<i class="ion-ios-location icon-small"></i>
+							160+ attractions
+						</div>
+						<div class="cities-features">
+							<i class="ion-social-twitter icon-small"></i>
+							<a  class="cities-sm" href="">@hellovietnam_ct</a>
+						</div>
+					</div>
+
+					<div class="col span_1_of_4 box">
+						<img src="resources/img/saigon.jpg">
+						<h3>Sai Gon</h3>
+						<div class="cities-features">
+							<i class="ion-ios-person icon-small"></i>
+							2300+ happy tourists
+						</div>
+						<div class="cities-features">
+							<i class="ion-ios-location icon-small"></i>
+							110+ attractions
+						</div>
+						<div class="cities-features">
+							<i class="ion-social-twitter icon-small"></i>
+							<a class="cities-sm" href="#">@hellovietnam_sg</a>
+						</div>
+					</div>
+
+						<div class="col span_1_of_4 box">
+						<img src="resources/img/hue.jpg">
+						<h3>Hue</h3>
+						<div class="cities-features">
+							<i class="ion-ios-person icon-small"></i>
+							1200+ happy tourists
+						</div>
+						<div class="cities-features">
+							<i class="ion-ios-location icon-small"></i>
+							50+ attractions
+						</div>
+						<div class="cities-features">
+							<i class="ion-social-twitter icon-small"></i>
+							<a  class="cities-sm" href="#">@hellovietnam_hue</a>
+						</div>
+					</div>
+
+						<div class="col span_1_of_4 box">
+						<img src="resources/img/hanoi.jpg">
+						<h3>Ha Noi</h3>
+						<div class="cities-features">
+							<i class="ion-ios-person icon-small"></i>
+							1600+ happy tourists
+						</div>
+						<div class="cities-features">
+							<i class="ion-ios-location icon-small"></i>
+							60+ attractions
+						</div>
+						<div class="cities-features">
+							<i class="ion-social-twitter icon-small"></i>
+							<a class="cities-sm" href="#">@hellovietnam_hn</a>
+						</div>
+					</div>
+			</div>
+
+		</section>
+
+		<section class="section-comments clearfix">
+			<div class="row">
+				<h2>Our customer can't live without us</h2>
+			</div>
+
+			<div class="row">
+				<div class="col span_1_of_3">
+					<blockquote>
+						A poem begins as a lump in the throat, a sense of wrong, a homesickness, a lovesickness. 
+						<cite><img src="resources/img/cus-1.jpg">Robert Frost</cite>
+					</blockquote>
+				</div>
+
+				<div class="col span_1_of_3">
+					<blockquote>
+						An intellectual says a simple thing in a hard way. An artist says a hard thing in a simple way. 
+						<cite><img src="resources/img/cus-2.jpg">Charles Bukowski</cite>
+					</blockquote>
+				</div>
+
+				<div class="col span_1_of_3">
+					<blockquote>
+						
+What makes resisting temptation difficult for many people is they don't want to discourage it completely.
+						<cite><img src="resources/img/cus-3.jpg">Franklin P. Jones</cite>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-plan clearfix js--section-plan" id="plans">
+			<div class="row">
+				<h2>Keep calm and book a holiday</h2>
+			</div>
+			<div class="row">
+				<div class="col span_1_of_3">
+					<div class="plan-box js--wp-4">
+						<div>
+							<h3>Premium</h3>
+							<p class="plan-price">$399 <span>/ trip</span></p>
+							<p class="plan-price-meal">That's only one person</p>
+						</div>
+						<div>
+							<ul>
+								<li><i class="ion-ios-checkmark-empty icon-small"></i>Lowest fare available</li>
+								<li><i class="ion-ios-checkmark-empty icon-small"></i>Baggage delivery</li>
+								<li><i class="ion-ios-checkmark-empty icon-small"></i>Refund</li>
+								<li><i class="ion-ios-checkmark-empty icon-small"></i>Overbooking</li>
+							</ul>
+						</div>
+						<div>
+							<a href="#" class="btn btn-full">Sign up now</a>
+						</div>
+					</div>	
+				</div>
+
+				<div class="col span_1_of_3">
+					<div class="plan-box">
+						<div>
+							<h3>Pro</h3>
+							<p class="plan-price">$399 <span>/ trip</span></p>
+							<p class="plan-price-meal">That's only one person</p>
+						</div>
+						<div>
+							<ul>
+								<li><i class="ion-ios-checkmark-empty icon-small"></i>Lowest fare available</li>
+								<li><i class="ion-ios-checkmark-empty icon-small"></i>Baggage delivery</li>
+								<li><i class="ion-ios-checkmark-empty icon-small"></i>Refund</li>
+								<li><i class="ion-ios-checkmark-empty icon-small"></i>Overbooking</li>
+							</ul>
+						</div>
+						<div>
+							<a href="#" class="btn btn-ghost">Sign up now</a>
+						</div>
+					</div>	
+				</div>
+
+				<div class="col span_1_of_3">
+					<div class="plan-box">
+						<div>
+							<h3>Starter</h3>
+							<p class="plan-price">$399 <span>/ trip</span></p>
+							<p class="plan-price-meal">&nbsp;</p>
+						</div>
+						<div>
+							<ul>
+								<li><i class="ion-ios-checkmark-empty icon-small"></i>Lowest fare available</li>
+								<li><i class="ion-ios-checkmark-empty icon-small"></i>Baggage delivery</li>
+								<li><i class="ion-ios-close-empty icon-small"></i></li>
+								<li><i class="ion-ios-checkmark-empty icon-small"></i>Overbooking</li>
+							</ul>
+						</div>
+						<div>
+							<a href="#" class="btn btn-ghost">Sign up now</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</section>
+
+		<section class="section-form clearfix">
+			<div class="row">
+				<h2>We're happy to hear from you</h2>
+			</div>
+
+			<div class="row">
+				<form method="post" action="#" class="contact-form">
+					<div class="row">
+						<div class="col span_1_of_3">
+							<label for="name">Name</label>
+						</div>
+						<div class="col span_2_of_3">
+							<input type="text" name="name" id="name" placeholder="Your name" required>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col span_1_of_3">
+							<label for="email">Email</label>
+						</div>
+						<div class="col span_2_of_3">
+							<input type="email" name="email" id="email" placeholder="Your email" required>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col span_1_of_3">
+							<label for="find-us">How did you find us?</label>
+						</div>
+						<div class="col span_2_of_3">
+							<select name="find-us" id="find-us">
+								<option value="friends" selected>Friends</option>
+								<option value="search">Search engine</option>
+								<option value="ad">Advertisement</option>
+								<option value="other">Other</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col span_1_of_3">
+							<label for="news">Newsletter?</label>
+						</div>
+						<div class="col span_2_of_3">
+							<input type="checkbox" name="news" id="news" checked> Yes, please
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col span_1_of_3">
+							<label for="message">Drop us a line</label>
+						</div>
+						<div class="col span_2_of_3">
+							<textarea name="message" placeholder="Your message"></textarea>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col span_1_of_3">
+							<label>&nbsp;</label>
+						</div>
+						<div class="col span_2_of_3">
+							<input type="submit" value="Send it!">
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<footer>
+			<div class="row">
+				<div class="col span_1_of_2">
+					<ul class="footer-nav">
+						<li><a href="">About us</a></li>
+						<li><a href="">Blog</a></li>
+						<li><a href="">Press</a></li>
+						<li><a href="">iOS App</a></li>
+						<li><a href="">Android App</a></li>
+					</ul>
+				</div>
+
+				<div class="col span_1_of_2">
+					<ul class="social-links">
+						<li><a href=""><i class="ion-social-facebook"></i></a></li>
+						<li><a href=""><i class="ion-social-twitter"></i></a></li>
+						<li><a href=""><i class="ion-social-googleplus"></i></a></li>
+						<li><a href=""><i class="ion-social-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row">
+				<p>
+					Copyright &copy; 2015 by HelloVietNam. All rights reserved
+				</p>
+			</div>
+		</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="resources/js/script.js"></script>	
 	</body>
->>>>>>> origin/master
-</html>
+</html
